@@ -101,6 +101,18 @@ client.on("message", async (message) => {
     }
   }
 
+
+  timestamps.set(message.author.id, now);
+  setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+
+  try {
+    command.execute(message, args);
+  } catch (error) {
+    console.error(error);
+    message.reply(i18n.__("common.errorCommend")).catch(console.error);
+  }
+});
+//////////
 client.on('message',async message => {
   if(message.content.startsWith(prefix + "sug")) {
   let args = message.content.split(" ").slice(1)
@@ -135,14 +147,3 @@ client.on('message',async message => {
  
   }
 })
-
-  timestamps.set(message.author.id, now);
-  setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
-
-  try {
-    command.execute(message, args);
-  } catch (error) {
-    console.error(error);
-    message.reply(i18n.__("common.errorCommend")).catch(console.error);
-  }
-});
