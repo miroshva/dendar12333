@@ -4,6 +4,7 @@ const Color = `#FF0000`;
 
 
 module.exports = {
+
     name: "botinfo",
   description: "Sends detailed info about the client",
   usage: "botinfo",
