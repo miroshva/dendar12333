@@ -5,10 +5,12 @@ const Color = `#FF0000`;
 
 module.exports = {
 
-    name: "botinfo",
-  description: "Sends detailed info about the client",
-  usage: "botinfo",
-  run: async (client, message, args) => {
+  name: "userinfo",
+  aliases: ["U"],
+description: "userinfo",
+  category: "fun",
+execute(message, args) {
+  
   //command
   let cpuLol;
   cpuStat.usagePercent(function(err, percent, seconds) {
