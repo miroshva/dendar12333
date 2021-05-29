@@ -18,7 +18,7 @@ module.exports = {
     .setThumbnail(``)
     .setImage(``)
     .setTitle(`Pore is One`)
-    .setDescription(` [invite](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)*** invite to pore bot`)
+    .setDescription(` [  invite  ](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)***< invite to pore bot >***`)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM")
