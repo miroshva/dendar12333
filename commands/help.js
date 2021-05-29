@@ -38,10 +38,10 @@ ${PREFIX}remove - ${PREFIX}queue
 ${PREFIX}filter - ${PREFIX}radio
 ${PREFIX}loop - ${PREFIX}lyrics
 
-<a:emoji_27:847407354005291018> | Gif Commands
+***<a:emoji_27:847407354005291018> | Gif Commands***
 
-${PREFIX}boy - ${PREFIX}gifblack(gb)
-${PREFIX}smoking
+**${PREFIX}boy** - **${PREFIX}gifblack**
+**${PREFIX}smoking**
 
 **<a:16:846357425343037472> | FunCommands**
 
