@@ -40,8 +40,8 @@ ${PREFIX}loop - ${PREFIX}lyrics
 
 ***<a:emoji_27:847407354005291018> | Gif Commands***
 
-**${PREFIX}boy** - **${PREFIX}gifblack**
-**${PREFIX}smoking**
+*${PREFIX}boy* - *${PREFIX}gifblack*
+*${PREFIX}smoking*
 
 **<a:16:846357425343037472> | FunCommands**
 
@@ -49,7 +49,7 @@ ${PREFIX}prefix - ${PREFIX}giveway
 ${PREFIX}lock - ${PREFIX}unlock 
 ${PREFIX}ban - ${PREFIX}unban
 ${PREFIX}slowmode - ${PREFIX}invites
-**Links** <a:emoji_27:847407354005291018>
+**Links** 
 [support](https://discord.gg/m6bUgytWp9)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)
 `)
 
