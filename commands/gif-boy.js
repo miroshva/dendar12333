@@ -16,7 +16,7 @@ let gifembed = new Discord.MessageEmbed()
 
 .setImage(replies[result]);
 
-message.channel.send(gifembed);
+message.channel.send();
 
 };
 
