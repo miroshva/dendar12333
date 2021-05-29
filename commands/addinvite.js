@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
-    .setImage(``)
+    .setImage(`https://media.discordapp.net/attachments/848121416696070164/848210376364654602/image0.gif`)
     .setTitle(`Pore is One`)
     .setDescription(` [  invite  ](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)***< invite to pore bot >***`)
 
