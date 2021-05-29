@@ -4,7 +4,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "invite",
+  name: "add",
   description: i18n.__('invite.description'),
   execute(message) {
     return message.member
