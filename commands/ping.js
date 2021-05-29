@@ -9,6 +9,7 @@ module.exports = {
   description: i18n.__("ping.description"),
   execute(message) {
     message
+       message.react("<a:emoji_29:847407497941614603>")
       .reply(i18n.__mf("ping.result", { ping: Math.round(message.client.ws.ping) }))
       .catch(console.error);
   }
