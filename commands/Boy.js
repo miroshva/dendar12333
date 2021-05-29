@@ -7,8 +7,8 @@ const {
 
 
 module.exports = {
-  name: "boy1",
-  aliases: ["b1"],
+  name: "boy",
+  aliases: ["boy"],
   cooldown: 8,
   description: "** Invite pore bot**",
   execute(message) {
