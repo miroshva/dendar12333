@@ -18,12 +18,3 @@ module.exports = {
     .setThumbnail(``)
     .setImage(`https://cdn.discordapp.com/attachments/694693923486171177/737219168822362183/a_9c8d6cb51559b033674ed8dd16234ee7.gif `)
     .setTitle(`Pore is One`)
-    .setDescription(` [  invite  ](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)***< invite to pore bot >***`)
-
-   .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("RANDOM")
-   message.react("<a:emoji_27:847407354005291018>")
-    return message.channel.send(helpEmbed).catch(console.error);
-
-  }
-};
