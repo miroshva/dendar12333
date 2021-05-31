@@ -13,7 +13,6 @@ module.exports = {
   description: "** Invite pore bot**",
   execute(message) {
     let commands = message.client.commands.array();
-
     let helpEmbed = new MessageEmbed()
     .setColor('RANDOM') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
@@ -28,9 +27,6 @@ module.exports = {
 .addField('My Ping' , `\`${client.ws.ping}\`` , true)
 .addField('Owner Bot' , `<@743887896481628190> ` , true)
 
-}
-   .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("RANDOM")
    message.react("<a:emoji_27:847407354005291018>")
     return message.channel.send(helpEmbed).catch(console.error);
 
