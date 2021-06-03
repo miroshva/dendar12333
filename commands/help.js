@@ -20,14 +20,14 @@ module.exports = {
     .setTitle(`Pinkt Is One`)
     .setDescription(`
 
-***<a:7_:845582001544364033> | User Commands***
+*** <:1_:842833259356618807> | User Commands***
 
 ${PREFIX}invite - ${PREFIX}support
 ${PREFIX}about - ${PREFIX}uptime
 ${PREFIX}ping - ${PREFIX}invites
 ${PREFIX}avatar - ${PREFIX}se
 
-***<a:21:846363425155055647> | Music Commands***
+*** <:emoji_12:842708529717968896> | Music Commands***
 
 ${PREFIX}play - ${PREFIX}skip
 ${PREFIX}skipto - ${PREFIX}nowplaying
@@ -36,20 +36,19 @@ ${PREFIX}nowplaying - ${PREFIX}resume
 ${PREFIX}shuffle - ${PREFIX}search
 ${PREFIX}remove - ${PREFIX}queue 
 ${PREFIX}filter - ${PREFIX}radio
-${PREFIX}loop - ${PREFIX}lyrics
-
-***<a:emoji_27:847407354005291018> | Gif Commands***
+${PREFIX}loop - ${PREFIX}
+***<a:emoji_5:849925518450098206> | Gif Commands***
 
 *${PREFIX}boy* - *${PREFIX}gifblack*
 *${PREFIX}smoking*
 
-**<a:16:846357425343037472> | FunCommands**
+*** <a:emoji_6:837819751677296670> | FunCommands***
 
 ${PREFIX}prefix - ${PREFIX}giveway
 ${PREFIX}lock - ${PREFIX}unlock 
 ${PREFIX}ban - ${PREFIX}unban
 ${PREFIX}slowmode - ${PREFIX}invites
-**Links** 
+**Links**<a:emoji_4:849925496723603488>
 [support](https://discord.gg/m6bUgytWp9)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=784303756925468713&permissions=8&scope=bot)
 `)
 
